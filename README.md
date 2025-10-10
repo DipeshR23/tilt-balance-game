@@ -120,11 +120,3 @@ This project is open source and available under the MIT License.
 
 **Enjoy playing Tilt Balance!** 🎮
 
-
-
-git init
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/DipeshR23/tilt-balance-game.git
-git push -u origin main
