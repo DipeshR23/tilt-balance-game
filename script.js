@@ -65,6 +65,9 @@ async function requestMotionPermission(){
     flashMessage('Motion enabled! Tilt your device to play.');
   }
 }
+/////////////
+document.getElementById("enableMotionBtn").addEventListener("click", requestMotionPermission);
+////////
 
 // touch/drag controls for mobile and desktop
 let dragging = false;
