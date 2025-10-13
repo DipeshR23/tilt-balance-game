@@ -4,6 +4,7 @@ Simple HTTP server for Tilt Balance game
 Run this script to serve the game locally
 """
 
+import utils.session
 import http.server
 import socketserver
 import webbrowser
